@@ -1,0 +1,62 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Login
+        <small>Member Login</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#">Home</a>
+        </li>
+        <li class="active">Login</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <br>
+      <div class="row">
+        <div class="col-lg-3">
+          <label>Name with initials :</label>
+        </div>
+        <div class="col-lg-9">
+          <input type="text" placeholder="Enter name" id="customerName" name="customerName" value=""
+                 class="form-control" maxlength="30" required="required" data-index="2">
+                <span class="has-error">
+                  <small data-fv-result="INVALID" id="namevalid" data-fv-for="message"
+                         data-fv-validator="notEmpty" class="help-block" style="display:none">Invalid name
+                  </small>
+                </span>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-3">
+          <label>Password :</label>
+        </div>
+        <div class="col-lg-9">
+          <input type="password" placeholder="Enter password" id="customerPassword" name="customerPassword" value=""
+                 class="form-control" maxlength="100" required="required" data-index="3">
+                <span class="has-error">
+                  <small data-fv-result="INVALID" id="addressvalid" data-fv-for="message"
+                         data-fv-validator="notEmpty" class="help-block" style="display:none">
+                    Invalid address
+                  </small>
+                </span>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-8">
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-primary btn-right" id="panel1_next" data-index="8">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- /.container -->
+
