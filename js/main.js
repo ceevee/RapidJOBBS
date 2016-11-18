@@ -22,7 +22,10 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/faq", {templateUrl: "partials/faq.html", controller: "PageCtrl"})
     .when("/login", {templateUrl: "partials/login.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
-    .when("/jobs", {templateUrl: "partials/jobs.html", controller: "PageCtrl"})
+    .when("/jobs.php", {templateUrl: "partials/jobs.php", controller: "PageCtrl"})
+	.when("/applyjob.php", {templateUrl: "partials/applyjob.php", controller: "PageCtrl"})
+	.when("/userjobview.php", {templateUrl: "partials/userjobview.php", controller: "PageCtrl"})
+	.when("/form.php", {templateUrl: "partials/form.php", controller: "PageCtrl"})
     .when("/signup", {templateUrl: "partials/signup.html", controller: "PageCtrl"})
     // else 404
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
