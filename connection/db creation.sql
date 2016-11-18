@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS vacancies (
   `companyName` varchar(20) NOT NULL,
   `vacProfession` varchar(50) NOT NULL,
   `vacPic` varchar(200) NOT NULL,
+  `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`vacID`)
 );
 
